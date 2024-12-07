@@ -134,3 +134,66 @@
 
 
 
+/* Side-bar */
+.side-bar{
+    margin-top: 7vh;
+    width: 200px;
+    height: 93vh;
+    background-color: yellow;
+    padding-top: 15px;
+    padding-left: 15px;
+    position: absolute;
+    z-index: 1;
+    transform: translateX(-200px);
+    transition: transform 0.3s ease;
+}
+.side-bar.active {
+    transform: translateX(0); 
+}
+.side-bar .active {
+    left:0px;
+}
+.menu{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 10px;
+}
+.menu i{
+    cursor: pointer;
+    color: #8000ff;
+    background-color: white;
+    width: 40px;
+    align-items: center;
+    text-align: center;
+    height: 35px;
+    font-size: 35px;
+    margin: 5px;
+}
+.side-bar h1{
+    font-size: 40px;
+    color: #8000ff;
+}
+.side-bar h1 i{
+    cursor: pointer;
+    color: #8000ff;
+    background-color: white;
+    width: 40px;
+    align-items: center;
+    text-align: center;
+    height: 35px;
+    font-size: 35px;
+    margin: 5px;
+}
+.side-bar p{
+    padding: 5px;
+    cursor: pointer;
+}
+.side-bar p i{
+    padding-right: 10px;
+    margin-right: 10px;
+    width: 20px;
+}
+.side-bar p:hover{
+    background-color: #8000ff;
+    color: white;
+}
