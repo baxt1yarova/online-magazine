@@ -197,3 +197,7 @@
     background-color: #8000ff;
     color: white;
 }
+
+.active-list{
+    color: #8000ff !important;
+}

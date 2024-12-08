@@ -1,7 +1,7 @@
 .image-container {
-    width: 300px;
-    height: 300px;
-    margin: 100px auto;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
     perspective: 1000px; 
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@
     align-items: center;
     gap: 30px;
     justify-content: space-around;
-    padding: 150px;
+    padding: 100px;
 }
 .section-text{
     font-size: 50px;
@@ -27,12 +27,12 @@
     height:50px;
     position: absolute;
     text-align: center;
-    left: 70%;
+    left: 60%;
     top: 70%;
     border-radius: 10px;
     font-size: 20px;
     background-color: #F15BB5;
-    border: 3px solid black;
+    border: 3px solid black; 
     padding: 10px;
     font-weight: bold;
 }
@@ -51,9 +51,9 @@
 /* section2 */
 .section-second{
     background-color: #FEE440;
-    height: 70vh;
+    height: 80vh;
     justify-content: space-around;
-    padding: 150px;
+    padding: 10px;
 }
 .section-chocolate{
     display: flex;
@@ -90,8 +90,8 @@
 /* section3 */
 .section-drink{
     justify-content: space-around;
-    padding: 150px;
-    height: 70vh;
+    padding: 100px;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -133,5 +133,3 @@
     text-decoration: none;
     color: black; 
 }
-
-
